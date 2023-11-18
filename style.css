@@ -180,6 +180,45 @@ img.child {
     margin-top: 30px;
 }
 
+.card2 {
+    background-color: white;
+    width: 300px;
+    height: 350px;
+    border-radius: 13px;
+    position: absolute;
+    top: -190px;
+    left: 430px;
+}
+
+.card-yellow {
+    background-color: #FAB131;
+    width: 90%;
+    border-radius: 3px;
+    margin-left: 14px;
+    position: absolute;
+    top: -25px;
+    height: 160px;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.image-container {
+    overflow: hidden;
+    height: 120px;
+}
+
+img.adult {
+    height: 440px;
+}
+
+.grownup {
+    margin-top: 163px;
+}
+
+.first-text {
+    margin-top: 30px;
+}
+
 .item9 {
     grid-column: span 3;
     background-color: #A9A19E;
