@@ -124,13 +124,11 @@ img.family {
 }
 
 .item1 {
-    grid-column: span 1;
     background-color: #A9A19E;
     color: white;
-    padding: 20px;
-    text-align: center;
-    position: relative;
-    height: 700px;
+    padding: 150px;
+    height: 650px;
+    align-items: flex-start;
 }
 
 .item2 {
@@ -149,7 +147,7 @@ img.family {
     border-radius: 13px;
     position: absolute;
     top: -190px;
-    left: 70px;
+    left: 100px;
 }
 
 .card-blue {
@@ -176,6 +174,7 @@ img.child {
 .kid {
     margin-top: 163px;
 }
+
 .first-text {
     margin-top: 30px;
 }
@@ -187,7 +186,7 @@ img.child {
     border-radius: 13px;
     position: absolute;
     top: -190px;
-    left: 430px;
+    left: 447px;
 }
 
 .card-yellow {
@@ -202,11 +201,6 @@ img.child {
     padding: 20px;
 }
 
-.image-container {
-    overflow: hidden;
-    height: 120px;
-}
-
 img.adult {
     height: 440px;
 }
@@ -215,8 +209,34 @@ img.adult {
     margin-top: 163px;
 }
 
-.first-text {
-    margin-top: 30px;
+.card3 {
+    background-color: white;
+    width: 300px;
+    height: 350px;
+    border-radius: 13px;
+    position: absolute;
+    top: -190px;
+    left: 795px;
+}
+
+.card-orange {
+    background-color: #F17949;
+    width: 90%;
+    border-radius: 3px;
+    margin-left: 14px;
+    position: absolute;
+    top: -25px;
+    height: 160px;
+    overflow: hidden;
+    padding: 20px;
+}
+
+img.old {
+    height: 440px;
+}
+
+.oldie {
+    margin-top: 163px;
 }
 
 .item9 {
