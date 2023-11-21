@@ -8,6 +8,11 @@ html {
     padding: 0;
 }
 
+body {
+    width: 1200px;
+    margin: 0px auto 0px auto;
+}
+
 .blue {
     background-color: #C7DDEA;
     grid-column: 1 / span 1;
@@ -262,6 +267,7 @@ img.old {
     color: white;
     padding: 20px;
     text-align: center;
+    height: 300px;
 }
 
 .item4 {
@@ -269,6 +275,7 @@ img.old {
     color: black;
     padding: 20px;
     text-align: center;
+    height: 300px;
 }
 
 .item5 {
@@ -276,6 +283,7 @@ img.old {
     color: white;
     padding: 20px;
     text-align: center;
+    height: 300px;
 }
 
 .item6 {
@@ -283,6 +291,7 @@ img.old {
     color: black;
     padding: 20px;
     text-align: center;
+    height: 300px;
 }
 
 .item7 {
@@ -290,6 +299,7 @@ img.old {
     color: white;
     padding: 20px;
     text-align: center;
+    height: 300px;
 }
 
 .item8 {
@@ -297,6 +307,7 @@ img.old {
     color: black;
     padding: 20px;
     text-align: center;
+    height: 300px;
 }
 
 .box,
@@ -316,6 +327,12 @@ img.old {
     border: none;
     box-shadow: 1px 3px #cacaca;
 
+}
+
+.footer-bottom {
+    background-color: #7a7777;
+    height: 300px;
+    margin-bottom: 30px;;
 }
 
 /*
