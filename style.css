@@ -145,6 +145,7 @@ img.family {
     padding: 20px;
     text-align: center;
     height: 450px;
+    justify-content: center;
 }
 
 .card {
@@ -264,50 +265,78 @@ img.old {
 
 .item3 {
     background-color: #C7DDEA;
-    color: white;
+    color: black;
     padding: 20px;
     text-align: center;
-    height: 300px;
+    height: 350px;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    position: relative;
 }
 
 .item4 {
     background-color: white;
-    color: black;
+    color: rgb(100, 100, 100);
     padding: 20px;
     text-align: center;
-    height: 300px;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
 }
 
 .item5 {
     background-color: #efefef;
-    color: white;
+    color: rgb(100, 100, 100);
     padding: 20px;
     text-align: center;
-    height: 300px;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
 }
 
 .item6 {
     background-color: white;
-    color: black;
+    color: rgb(100, 100, 100);
     padding: 20px;
     text-align: center;
-    height: 300px;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
 }
 
 .item7 {
     background-color: #F17949;
-    color: white;
+    color: rgb(100, 100, 100);
     padding: 20px;
     text-align: center;
-    height: 300px;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
 }
 
 .item8 {
     background-color: white;
-    color: black;
+    color: rgb(100, 100, 100);
     padding: 20px;
     text-align: center;
-    height: 300px;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.top-corner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    font-size: 40px;
 }
 
 .box,
