@@ -15,12 +15,18 @@ body {
 
 .blue {
     background-color: #C7DDEA;
+    display: grid;
     grid-column: 1 / span 1;
     grid-row: 1 / span 2;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    text-align: left;
+    height: 500px;
+    position: relative;
+}
+
+.blue-text {
+    padding-top: 50px;
+    padding-left: 50px;
+    gap: 30px;
 }
 
 .orange {
@@ -43,9 +49,17 @@ body {
     flex-direction: column;
 }
 
-h1 {
-    font-size: 30px;
+.top-heading {
+    font-size: 36px;
     font-family: 'Frank Ruhl Libre', serif;
+    line-height: 33px;
+}
+
+.top-text {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 12px;
+    color: rgb(69, 69, 69);
+    padding-top: 10px;
 }
 
 h2,
@@ -53,10 +67,6 @@ button {
     font-family: 'Frank Ruhl Libre', serif;
 }
 
-p {
-    font-family: 'Fira Sans', sans-serif;
-    font-size: 12px;
-}
 
 main {
     background-color: #efefef;
@@ -75,25 +85,21 @@ img.family {
     width: 70%;
     height: auto;
     margin-left: 150px;
-    
     display: block;
+    position: absolute;
+    bottom: 0;
 }
 
-.before-nav-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
 
 .first-button {
     background-color: white;
     color: rgb(22, 22, 22);
     border-radius: 30px;
-    padding: 15px 50px;
+    padding: 15px 40px;
     border: none;
     box-shadow: 1px 3px #cacaca;
     width: 30%;
+    margin-top: 50px;
 }
 
 .navigation {
@@ -119,6 +125,27 @@ img.family {
 .top-wrapper {
     max-width: 1200px;
     width: 100%;
+}
+
+.middle-heading {
+    font-size: 36px;
+    font-family: 'Frank Ruhl Libre', serif;
+    line-height: 33px;
+    text-align: left;
+}
+
+.left-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+    margin-right: 270px;
+}
+
+.middle-text {
+    color: rgb(69, 69, 69);
+    font-size: 18px;
+    text-align: left;
 }
 
 .bottom-wrapper {
@@ -253,9 +280,15 @@ img.old {
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
-    margin-top: 130px;
+    margin-top: 180px;
+    margin-bottom: 50px;
 }
-.item9 {
+
+.us-info {
+    align-self: center;
+}
+
+.bottom-button {
     grid-column: span 3;
     background-color: #A9A19E;
     color: white;
@@ -348,6 +381,10 @@ img.old {
     position: relative;
 }
 
+.box {
+    text-align: center;
+}
+
 .second-button {
     background-color: white;
     color: rgb(22, 22, 22);
@@ -355,13 +392,32 @@ img.old {
     padding: 15px 50px;
     border: none;
     box-shadow: 1px 3px #cacaca;
+    width: 70%;
+}
 
+.footer-wrapper {
+    display: flex;
+    flex-direction: column;
 }
 
 .footer-bottom {
     background-color: #7a7777;
     height: 300px;
-    margin-bottom: 30px;;
+    margin-bottom: 30px;
+}
+
+.bottom-button {
+    background-color: #b5b5b5;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: rgb(25, 25, 25);
+}
+
+.arrow-up {
+    width: 20px;
 }
 
 /*
