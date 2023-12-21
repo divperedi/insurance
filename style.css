@@ -438,3 +438,114 @@ img.old {
     grid-column: span 1 / 3;
     grid-row: 1 / span 1;
 }*/
+
+
+/* Contact */
+
+.contact-header {
+    background-color: #C7DDEA;
+    display: grid;
+    grid-template-areas: ". title picture";
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.contact-header__title {
+    grid-area: title;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.contact-header__picture {
+    padding-top: 20px;
+    display: block;
+    grid-area: picture;
+}
+
+.contact-main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    background-color: #A9A19E;
+}
+
+.contact-main__form {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 70px;
+}
+
+
+.contact-main__form-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.contact-main__text {
+    color: white;
+    font-size: 32px;
+    width: 40%;
+    padding-bottom: 350px;
+}
+
+.contact-main__input-small {
+    width: 400px;
+    height: 50px;
+    border-radius: 3px;
+    border: none;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.contact-main__input-small__input--big {
+    width: 100%;
+    height: 250px;
+    border-radius: 3px;
+    border: none;
+    margin-bottom: 50px;
+    padding-left: 10px;
+    padding-top: 10px;
+    text-align: left;
+}
+
+.contact-main__label {
+    text-align: left;
+    width: 100%;
+    color: white;
+    padding-bottom: 7px;
+}
+
+.contact-main__button {
+    background-color: white;
+    color: rgb(22, 22, 22);
+    border-radius: 30px;
+    padding: 17px 30px;
+    border: none;
+    box-shadow: 1px 3px #cacaca;
+    width: 50%;
+    font-size: 18px;
+    margin-left: 195px;
+    cursor: pointer;
+}
+
+.contact-main__picture {
+    width: 100%;
+    height: 500px;
+    display: block;
+}
+
+.contact-main__map {
+    padding-bottom: 30px;
+}
+
+.contact-main__gray {
+    height: 500px;
+    background-color: #efefef;
+    padding: 50px;
+    background-color: #A9A19E;
+}
